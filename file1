@@ -1,0 +1,64 @@
+
+#Figure Collection Project
+#Jehanne Andrabado
+
+
+def menu_choice():
+    print(15*"-", "Menu", 15 * "-")
+    print("1. Add a figure to the collection")
+    print("2. Delete a figure from the collection ")
+    print("3. Sort the figures")
+    print("4. Display the figure list")
+    print("5. Search for a figure")
+    print("6. Exit the program")
+
+    choice = int(input("Please make a selection >> "))
+
+    while choice != -1:
+
+        if choice == 1:
+            print("Adding a figure")
+            break
+        elif choice == 2:
+            print("Deleting a figure")
+            break
+        elif choice == 3:
+            print("Sorting the figure")
+            break
+        elif choice == 4:
+            print("Displaying the list")
+            break
+        elif choice == 5:
+            print("Searching for a figure")
+            break
+        elif choice == 6:
+            print("Goodbye!")
+            break
+        else:
+            choice = int(input("Please enter a valid choice"))
+
+
+'''
+def add_figure():
+    print("Please enter the name of the figure you would like to add to the collection >> )
+def delete_figure():
+    print("Please enter the name of the figure you would like to delete >> )
+def sort_figure():
+    print("How would you like to sort your list?)
+    
+def display_figure():
+    sort_figure()
+def search_figure():
+    print("Please enter the name of the figure you would like to look for >> ")
+'''
+
+
+def main():
+    print("Welcome to the Figure Collection Program!")
+    menu_choice()
+
+
+if __name__ == "__main__":
+    main()
+
+
