@@ -8,3 +8,13 @@
 # Then right click on the coding window and from that menu, left click on 'Run 'file1'', this will run the code.
 # The project as it is displays a menu. When a choice is selected the program will display text confirming the decision.
 # The program will then exit
+
+# Alternatively
+# Go to https://github.com/jandrabado/ProjPrototype2.git 
+# Click on file1 
+# Copy all the code to the clipboard
+# Open Jetbrains Pycharm Community Edition 2019.1.1
+# Create a new project, name it JATest
+# In the menu on the left, right click on JATest, and then hover over 'New' then select 'Python File'
+# You will now be able to paste the code into the IDE
+# Right click on the coding window and select 'Run JATest'
