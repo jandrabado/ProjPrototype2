@@ -1,5 +1,5 @@
 # ProjPrototype2
-# After downloading the 
+# After downloading the files from Canvas open it with winRAR or 7zip
 # Open file1 with JetBrains Pycharm Community Edition 2019.1.1 
 # It is possible that upon opening Pycharm you must add a Python interpreter, to do so click Configure Python interpreter next to the gear above the coding window 
 # At the new window for Project Interpreter, click on the drop down menu and select 'Show All' then select Python 3.7
